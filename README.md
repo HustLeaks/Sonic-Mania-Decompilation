@@ -1,6 +1,11 @@
-# **About this fork**
-This fork contains a PlayStation 3 port of the game. Check dependencies/RSDKv5 for instructions in how to compile it. Do not use the Makefile in this repo.
-Original README below.
+# About the project
+
+* This fork over the port for playstation 3 system
+* This port is still in WIP (work in progress)
+
+#### Do not use the ```Makefile``` from this repository. To perform the compilation see [here](https://github.com/StrawFox64/RSDKv5-Decompilation/blob/master/BUILDING.md)
+
+# Original description
 
 # **SUPPORT THE OFFICIAL RELEASE OF SONIC MANIA (PLUS)**
 + Without assets from the official releases, this decompilation will not run.
