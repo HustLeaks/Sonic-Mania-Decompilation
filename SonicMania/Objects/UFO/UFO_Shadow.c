@@ -104,6 +104,9 @@ void UFO_Shadow_StageLoad(void)
         }
     }
 
+	// No shadows (Only Rings and Sphere), higher performance
+	// By Ultra0000
+#ifndef __PS3__
     foreach_all(UFO_Ring, ring)
     {
         EntityUFO_Shadow *shadow = RSDK_GET_ENTITY(slot--, UFO_Shadow);
@@ -123,6 +126,7 @@ void UFO_Shadow_StageLoad(void)
         shadow->parent      = (Entity *)sphere;
         shadow->shadowScale = 0x100;
     }
+#endif
 
     LogHelpers_Print("%d shadow entities spawned", TEMPENTITY_START - slot);
 }

@@ -1,3 +1,13 @@
+# About the project
+
+* This fork over the port for playstation 3 system.
+* This port is still in WIP (work in progress).
+* For more details or to report bugs and [Here](https://github.com/StrawFox64/RSDKv5-Decompilation).
+
+# How to start
+Read [Here](BUILDING.md).
+
+# Original description
 # **SUPPORT THE OFFICIAL RELEASE OF SONIC MANIA (PLUS)**
 + Without assets from the official releases, this decompilation will not run.
 
